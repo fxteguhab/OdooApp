@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/item_detail_alert"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/item_detail_tanggal"
+        android:text="!!!!!"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:text="!!!" />
+
+    <TextView
+        android:id="@+id/item_detail_tanggal"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/item_detail_alert"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_detail_message"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/item_detail_title"
+        android:text="Notification" />
+
+    <TextView
+        android:id="@+id/item_detail_lines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/item_detail_message"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/item_detail_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        app:backgroundTint="?attr/actionModeSplitBackground"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:srcCompat="@drawable/ic_close_white_24px" />
+
+</RelativeLayout>

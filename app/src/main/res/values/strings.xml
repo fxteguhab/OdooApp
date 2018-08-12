@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">OdooApp</string>
+
+    <string name="value_any_category">All Category</string>
+    <string name="value_any_alert">Any Alert</string>
+
+
+    <string name="alert_1">!</string>
+    <string name="alert_2">!!</string>
+    <string name="alert_3">!!!</string>
+    <string name="alert_4">!!!!</string>
+    <string name="alert_5">!!!!!</string>
+
+    <string name="sort_by_alert">Sort by Alert</string>
+    <string name="sort_by_date">Sort by Date</string>
+
+    <string name="sort_descending">Descending</string>
+    <string name="sort_ascending">Ascending</string>
+
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+        <item>INVOICE</item>
+        <item>SALES</item>
+        <item>PURCHASE</item>
+        <item>PRODUCT</item>
+        <item>PRICE</item>
+        <item>STOCK OPNAME</item>
+        <item>CANVASS</item>
+    </string-array>
+
+
+    <!-- Alert filters -->
+    <string-array name="alert">
+        <item>@string/value_any_alert</item>
+        <item>@string/alert_1</item>
+        <item>@string/alert_2</item>
+        <item>@string/alert_3</item>
+        <item>@string/alert_4</item>
+        <item>@string/alert_5</item>
+    </string-array>
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_date</item>
+        <item>@string/sort_by_alert</item>
+    </string-array>
+
+    <string-array name="sort_direction">
+        <item>@string/sort_descending</item>
+        <item>@string/sort_ascending</item>
+    </string-array>
+
+</resources>

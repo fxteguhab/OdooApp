@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/item_message"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/item_title"
+        android:text="Notification" />
+
+    <TextView
+        android:id="@+id/item_tanggal"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/item_tanggal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_alert"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/item_message"
+        android:layout_alignEnd="@+id/item_message"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:text="!!!" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_delete2"
+        android:layout_width="29dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:srcCompat="@color/cardview_light_background" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/item_message"
+        android:background="?attr/actionModeSplitBackground" />
+        <!--android:background="?android:attr/listDivider" />-->
+
+</RelativeLayout>
